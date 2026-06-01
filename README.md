@@ -1,5 +1,7 @@
 # Scene Serialized Field Viewer
 
+[한국어](README.ko.md) | English
+
 Unity EditorWindow utility for inspecting and editing serialized fields on MonoBehaviour components in the currently active scene.
 
 The window defaults to showing project scripts whose script files live under `Assets/`. Package and Unity built-in MonoBehaviours are hidden by default, but can be shown with the `All MonoBehaviours` option.
@@ -48,7 +50,7 @@ Use `Refresh` after changing scenes or scripts. Use `Include Inactive` to includ
 - Does not search prefab assets outside the scene.
 - Does not search multiple loaded scenes at once.
 - Does not export results.
-- Hidden results are remembered only while the window instance is open.
+- Hidden and folded results are remembered for the current Unity editor session.
 
 ## License
 
